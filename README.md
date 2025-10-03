@@ -1,12 +1,18 @@
-ASD Cyber Threat Report 2023–24. Quantitative Data Extraction
+ASD Cyber Threat Report 2023–24. Quantitative Data Extraction.
+
+This folder contains an analysis project built from the cleaned ASD 2023–24 dataset.
+
+1. Open or run `notebook/analysis.ipynb` with JupyterLab/Notebook and run the cells.
+2. Open or run `scripts/analysis.py` this script generate console output and saved figures in `images/`.
+
 This repository provides structured quantitative data extracted from the ASD Annual Cyber Threat Report 2023–24, Australia. The project’s purpose is to make official cybersecurity statistics easier to analyze, visualize, and integrate into research and decision-making. The original report is published as a PDF, which limits data reusability. This repository converts the most relevant statistics into a clean CSV dataset. Information is grouped by category and enriched with context notes to help analysts and policymakers quickly understand trends.
 
 Dataset Categories are:
 
-A) Cybercrime Reports: Total number of incidents, daily/weekly averages, and top crime types such as identity fraud, online shopping fraud, and investment scams.
-B) Cybercrime Hotline Calls: Total calls received, frequency, and year over-year changes.
-C) Critical Infrastructure Reports: Sector based distribution of incidents (For example: electricity, water, education, transport).
-D) Cybersecurity Exercises & Partnerships: Number of exercises, organizational participation, and engagement levels of ASX200 boards.
+1. Cybercrime Reports: Total number of incidents, daily/weekly averages, and top crime types such as identity fraud, online shopping fraud, and investment scams.
+2. Cybercrime Hotline Calls: Total calls received, frequency, and year over-year changes.
+3. Critical Infrastructure Reports: Sector based distribution of incidents (For example: electricity, water, education, transport).
+4. Cybersecurity Exercises & Partnerships: Number of exercises, organizational participation, and engagement levels of ASX200 boards.
 
 Source:
 
